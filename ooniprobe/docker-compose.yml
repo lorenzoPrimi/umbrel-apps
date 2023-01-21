@@ -6,9 +6,6 @@ services:
       APP_HOST: ooniprobe_web_1
       APP_PORT: 3888
 
-      APP_HOST: $APP_OONIPROBE_IP
-      APP_PORT: $APP_OONIPROBE_PORT
-
   proxy:
     image: altertek/ooni-probe:3.16.5@sha256:b039a537c869009c56e5c48ac162f136be1a07c862814d174d347b0295947dab
     restart: on-failure
