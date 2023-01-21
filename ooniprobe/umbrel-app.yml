@@ -5,9 +5,12 @@ name: OONI Probe
 version: "3.16.5"
 tagline: Test the blocking of websites and apps.
 description: >-
-  The Open Observatory of Network Interference (OONI) is a non-profit free software project that aims to empower decentralized efforts in documenting Internet censorship around the world.
+  The Open Observatory of Network Interference (OONI) is a non-profit 
+  free software project that aims to empower decentralized efforts 
+  in documenting Internet censorship around the world.
   
-  Test the blocking of websites and apps. Measure the speed and performance of your network.
+  Test the blocking of websites and apps. 
+  Measure the speed and performance of your network.
 developer: Open Observatory of Network Interference
 website: https://ooni.org/
 dependencies: []
