@@ -20,7 +20,6 @@ services:
     image: getumbrel/gotty:v1.0.1@sha256:100571d271cfbae25603acac216afce511eece9961218c6db427e0fa4a58716a
     restart: on-failure
     stop_grace_period: 1m
-    command: --port 3888 --index "/ooniprobe/index.html" --title-format "OONI Probe" bash -c 'tail -n
-10000 -f /ooniprobe/ooniprobe.log
+    command: --port 3888 --index "/ooniprobe/index.html" --title-format "OONI Probe" bash -c 'tail -n 10000 -f /ooniprobe/ooniprobe.log
     volumes:
       - ${APP_DATA_DIR}/data:/ooniprobe
